@@ -64,31 +64,4 @@ Truly dependable..........
             return redirect()->back();
         }
     }
-
-
-    public function momolookup()
-    {
-    //     $client = new Client();
-    //     $headers = 
-    //         [  
-    //         'Cookie' => 'XSRF-TOKEN=eyJpdiI6InNnMDFVSXJocFFxNFQ1eWY4bS9Mc1E9PSIsInZhbHVlIjoiTWRTMkhHWlFyMDNKYjNhdFFhcmV2RWlhY2c3aStyY3RPNFFlSmplWks3aFVGQkJYWTZXSTlMOTFlYTBRRitmRGh2NXhlSEU5T0VoVC9MOHhObEp1ZkNQU09DV3htZFpzV1R4N2xqTU04blg3a29nY0pSWUd0VWlkSmVBbTJHSWsiLCJtYWMiOiI2NjM3YjViM2I2NDdkMWI1MDJhZWU0ZTExYjBkZWNhMTRlYzkxNDNjZGRiZDY1M2EwYWM0MjQxN2U1NzExOTU3IiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6ImREZ2ZkaGZSOXJtdWlxKy9yMFczdUE9PSIsInZhbHVlIjoiTWJTOXk1UCtBTGI4ekRLTDVIUEZRTUFBS0FnSkhNTXQ4dU9FSVBoQXlkb09FdEdwbEJ1ZHpkVzBveFRMMlg4UHJ5Zlp1MGFRakNQY3BMQ1Q0YlBBZGRUdFpLQ2IwaHd4Tjg3WGdHcEprTkh5c2kwRW1NMEk2cFVBVEhLQ0U4UWwiLCJtYWMiOiIxYzg3NzA4OGM1MzA1MzZmNGJkMDlmODcwMTE5OTE1MzQ0M2NkYjQ1MTAzZjk2NmU2NmZkNTRlYjlmMTYwOGJhIiwidGFnIjoiIn0%3D'
-    //         ];
-    //     $endpoint = 'http://inthub/ecall_new/api/flex/lookup';
-        
-        
-        
-    //     $body = [
-        
-        
-    //     ];
-        
-    //     $res =  $client->get("http://inthub/ecall_new/api/flex/lookup");
-    //    return $data = json_decode($res->getBody(),true);
-
-
-       $client = new Client();
-       return $response = $client->get("http://inthub/ecall_new/api/flex/lookup");
-    
-
-    }
 }
